@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       } 
       else 
       {
-        targetImage.classList.add("small");// 增加small
+        targetImage.classList.remove("small"); //targetImage.classList.add("small");// 增加small
       }
     }
   );
