@@ -1,6 +1,6 @@
 a { color:blue; }
 a:hover { color: red; }
-header {display: flex; flex-direction: row; }
+header {display: flex; flex-direction: row; align-items: flex-end;}
 body { display: flex; flex-direction: column; }
 main { display: flex; flex: auto; }
 aside{ flex: 1;}
