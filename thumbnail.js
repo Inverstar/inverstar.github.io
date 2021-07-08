@@ -12,7 +12,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
       {
         targetImage.classList.remove("small"); // 移除small
       } 
-     
+      else
+      {
+        targetImage.classList.add("small"); //增加small
+      }
     }
   );
   
